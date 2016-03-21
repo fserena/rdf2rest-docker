@@ -1,0 +1,4 @@
+#!/bin/sh
+/usr/lib/rdf2rest/.env/bin/pip install --upgrade rdf2rest
+/usr/local/bin/r2r &
+sleep 1
