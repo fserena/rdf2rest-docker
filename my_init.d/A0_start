@@ -1,4 +1,4 @@
 #!/bin/sh
-/usr/lib/rdf2rest/.env/bin/pip install --upgrade rdf2rest
+/usr/lib/rdf2rest/.env/bin/pip install git+https://github.com/fserena/rdf2rest.git
 /usr/local/bin/r2r &
 sleep 1
